@@ -12,6 +12,55 @@ namespace R5T.Z0067
     public partial interface IProjectDirectoryPathRelativePaths : IValuesMarker,
         Z001.IProjectDirectoryPathRelativePaths
     {
+#pragma warning disable IDE1006 // Naming Styles
+
+        /// <summary>
+        /// <para><value>package.json</value></para>
+        /// </summary>
+        public string package_json => @"package.json";
+
+        /// <summary>
+        /// <para><value>Components\Pages\Error.razor</value></para>
+        /// </summary>
+        public string Error_razor_Page => @"Components\Pages\Error.razor";
+
+        /// <summary>
+        /// <para><value>tailwind.config.js</value></para>
+        /// </summary>
+        public string tailwind_config_js => @"tailwind.config.js";
+
+        /// <summary>
+        /// <para><value>source\css\tailwind.css</value></para>
+        /// </summary>
+        public string tailwind_css => @"source\css\tailwind.css";
+
+        /// <summary>
+        /// <para><value>Components\_Imports.razor</value></para>
+        /// </summary>
+        public string _Imports_razor_ForComponents => @"Components\_Imports.razor";
+
+        /// <summary>
+        /// <para><value>Components\Routes.razor</value></para>
+        /// </summary>
+        public string Routes_razor => @"Components\Routes.razor";
+
+        /// <summary>
+        /// <para><value>Components\Layout\MainLayout.razor</value></para>
+        /// </summary>
+        public string MainLayout_razor => @"Components\Layout\MainLayout.razor";
+
+        /// <summary>
+        /// <para><value>Components\Pages\Home.razor</value></para>
+        /// </summary>
+        public string Home_razor => @"Components\Pages\Home.razor";
+
+        /// <summary>
+        /// <para><value>tailwind.contentpaths.json</value></para>
+        /// </summary>
+        public string tailwind_contentpaths_json => @"tailwind.contentpaths.json";
+
+
+
         /// <summary>
         /// <para><value>Components\App.razor</value></para>
         /// </summary>
@@ -43,11 +92,24 @@ namespace R5T.Z0067
         public string Documentation_cs => @"Code\Documentation.cs";
 
         /// <summary>
+        /// <para><value>Code\Forms\Form1.cs</value></para>
+        /// </summary>
+        public string Form1_cs => @"Code\Forms\Form1.cs";
+
+        /// <summary>
+        /// <para><value>Code\Forms\Form1.Designer.cs</value></para>
+        /// </summary>
+        public string Form1_Designer_cs => @"Code\Forms\Form1.Designer.cs";
+
+        /// <summary>
+        /// <para><value>Code\Forms\Form1.resx</value></para>
+        /// </summary>
+        public string Form1_resx => @"Code\Forms\Form1.resx";
+
+        /// <summary>
         /// <para><value>Routes\Pages\_Host.cshtml</value></para>
         /// </summary>
-#pragma warning disable IDE1006 // Naming Styles
         public string _Host_cshtml => @"Routes\Pages\_Host.cshtml";
-#pragma warning restore IDE1006 // Naming Styles
 
         /// <summary>
         /// <para><value>Routes\Components\Index.razor</value></para>
@@ -73,5 +135,7 @@ namespace R5T.Z0067
         /// <para><value>Project Plan.md</value></para>
         /// </summary>
         public string Project_Plan_md => @"Project Plan.md";
+
+#pragma warning restore IDE1006 // Naming Styles
     }
 }
