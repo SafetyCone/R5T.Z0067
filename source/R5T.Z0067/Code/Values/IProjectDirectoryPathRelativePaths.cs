@@ -136,6 +136,11 @@ namespace R5T.Z0067
         /// </summary>
         public string Project_Plan_md => @"Project Plan.md";
 
+        /// <summary>
+        /// <para><value>Controllers\StringsController.cs</value></para>
+        /// </summary>
+        public string StringsController_cs => @"Controllers\StringsController.cs";
+
 #pragma warning restore IDE1006 // Naming Styles
     }
 }
